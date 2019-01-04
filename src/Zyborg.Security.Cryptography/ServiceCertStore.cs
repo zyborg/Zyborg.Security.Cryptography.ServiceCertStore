@@ -1,20 +1,21 @@
+using System;
 using System.ComponentModel;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
 
-namespace System.Security.Cryptography
+namespace Zyborg.Security.Cryptography
 {
     public static class ServiceCertStore
     {
         // These constants borrowed from:
-        //  https://github.com/dotnet/corefx/blob/master/src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Store.cs#L13
+        //  https://github.com/dotnet/corefx/blob/master/src/Zyborg.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Store.cs#L13
         internal const string RootStoreName = "Root";
         internal const string IntermediateCAStoreName = "CA";
         internal const string DisallowedStoreName = "Disallowed";
 
         public static X509Store OpenStore(string serviceName, StoreName storeName = StoreName.My)
         {
-            // Based on [this](https://github.com/dotnet/corefx/blob/master/src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Store.cs#L44)
+            // Based on [this](https://github.com/dotnet/corefx/blob/master/src/Zyborg.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Store.cs#L44)
             // we map the StoreName enum to a literal string value:
 
             // Default to the enum value name

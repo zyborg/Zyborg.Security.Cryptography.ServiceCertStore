@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Security.Cryptography;
+using Zyborg.Security.Cryptography;
 
 namespace servicecerts
 {

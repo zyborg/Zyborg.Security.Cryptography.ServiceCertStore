@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{346B1BFC-8E2C-448D-8889-771C8E0EB600}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Security.Cryptography", "src\System.Security.Cryptography\System.Security.Cryptography.csproj", "{559562FB-6CB7-42FD-BDAF-47CE820A672D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zyborg.Security.Cryptography", "src\Zyborg.Security.Cryptography\Zyborg.Security.Cryptography.csproj", "{559562FB-6CB7-42FD-BDAF-47CE820A672D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicecerts", "src\servicecerts\servicecerts.csproj", "{83464522-A0B5-455B-87E5-7A2E24F322F1}"
 EndProject

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\System.Security.Cryptography\System.Security.Cryptography.csproj" />
+    <ProjectReference Include="..\Zyborg.Security.Cryptography\Zyborg.Security.Cryptography.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

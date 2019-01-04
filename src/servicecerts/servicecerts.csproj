@@ -6,6 +6,24 @@
     <LangVersion>7.3</LangVersion>
   </PropertyGroup>
 
+  <!--
+   - NuGet Pack
+   -    https://docs.microsoft.com/en-us/nuget/reference/msbuild-targets
+   -->
+  <PropertyGroup>
+      <PackageId>Zyborg.Security.Cryptography.servicecerts</PackageId>
+      <Description>Basic CLI tool to manage Windows Service-specific cert store</Description>
+      <Copyright>Copyright (C) Eugene Bekker.</Copyright>
+      <PackageLicenseUrl>https://github.com/zyborg/Zyborg.Security.Cryptography.ServiceCertStore/blob/master/LICENSE</PackageLicenseUrl>
+      <PackageProjectUrl>https://github.com/zyborg/Zyborg.Security.Cryptography.ServiceCertStore/tree/master/src/servicecerts</PackageProjectUrl>
+      <PackageIconUrl>https://avatars2.githubusercontent.com/u/22501173?s=88&v=4</PackageIconUrl>
+      <PackageTags>pki;ssl;tls;security;certificates</PackageTags>
+      <RepositoryUrl>https://github.com/zyborg/Zyborg.Security.Cryptography.ServiceCertStore.git</RepositoryUrl>
+      <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <Import Project="../../version.props" />
+
   <ItemGroup>
     <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.3.0" />
   </ItemGroup>

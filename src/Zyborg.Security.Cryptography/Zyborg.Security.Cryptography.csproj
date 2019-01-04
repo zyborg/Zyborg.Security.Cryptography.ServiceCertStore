@@ -4,4 +4,22 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <!--
+   - NuGet Pack
+   -    https://docs.microsoft.com/en-us/nuget/reference/msbuild-targets
+   -->
+  <PropertyGroup>
+      <PackageId>Zyborg.Security.Cryptography.ServiceCertStore</PackageId>
+      <Description>Extension to the .NET X509Store to access Win Service-specific certificate stores</Description>
+      <Copyright>Copyright (C) Eugene Bekker.</Copyright>
+      <PackageLicenseUrl>https://github.com/zyborg/Zyborg.Security.Cryptography.ServiceCertStore/blob/master/LICENSE</PackageLicenseUrl>
+      <PackageProjectUrl>https://github.com/zyborg/Zyborg.Security.Cryptography.ServiceCertStore/tree/master/src/Zyborg.Security.Cryptography</PackageProjectUrl>
+      <PackageIconUrl>https://avatars2.githubusercontent.com/u/22501173?s=88&v=4</PackageIconUrl>
+      <PackageTags>pki;ssl;tls;security;certificates</PackageTags>
+      <RepositoryUrl>https://github.com/zyborg/Zyborg.Security.Cryptography.ServiceCertStore.git</RepositoryUrl>
+      <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <Import Project="../../version.props" />
+
 </Project>

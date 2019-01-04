@@ -69,12 +69,12 @@ namespace Zyborg.Security.Cryptography
 
         // From:  https://www.pinvoke.net/default.aspx/crypt32.certopenstore
         [DllImport("CRYPT32.DLL", EntryPoint = "CertOpenStore", CharSet = CharSet.Auto, SetLastError = true)]
-        public static extern IntPtr CertOpenStoreStringPara(int storeProvider, int encodingType,
+        internal static extern IntPtr CertOpenStoreStringPara(int storeProvider, int encodingType,
             IntPtr hcryptProv, int flags, String pvPara);
 
         // From:  https://www.pinvoke.net/default.aspx/crypt32.CertCloseStore
         [DllImport("CRYPT32.DLL", EntryPoint = "CertCloseStore", CharSet = CharSet.Auto, SetLastError = true)]
         [return: MarshalAs(UnmanagedType.Bool)]
-        public static extern bool CertCloseStore(IntPtr storeProvider, int flags);
+        internal static extern bool CertCloseStore(IntPtr storeProvider, int flags);
     }
 }

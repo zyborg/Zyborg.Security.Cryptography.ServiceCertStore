@@ -16,7 +16,7 @@
       <Copyright>Copyright (C) Eugene Bekker.</Copyright>
       <PackageLicenseUrl>https://github.com/zyborg/Zyborg.Security.Cryptography.ServiceCertStore/blob/master/LICENSE</PackageLicenseUrl>
       <PackageProjectUrl>https://github.com/zyborg/Zyborg.Security.Cryptography.ServiceCertStore/tree/master/src/servicecerts</PackageProjectUrl>
-      <PackageIconUrl>https://avatars2.githubusercontent.com/u/22501173?s=88&v=4</PackageIconUrl>
+      <PackageIconUrl>https://avatars2.githubusercontent.com/u/22501173?s=88&amp;v=4</PackageIconUrl>
       <PackageTags>pki;ssl;tls;security;certificates</PackageTags>
       <RepositoryUrl>https://github.com/zyborg/Zyborg.Security.Cryptography.ServiceCertStore.git</RepositoryUrl>
       <RepositoryType>git</RepositoryType>

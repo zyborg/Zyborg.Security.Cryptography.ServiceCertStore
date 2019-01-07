@@ -11,6 +11,7 @@ namespace servicecerts
         typeof(ListCerts),
         typeof(ImportCert),
         typeof(RemoveCert))]
+    [VersionOptionFromMember(MemberName = nameof(Program.Version))]
     class Program
     {
         public static readonly StoreName DefaultStore =
@@ -18,6 +19,8 @@ namespace servicecerts
 
         static async Task<int> Main(string[] args) =>
             await CommandLineApplication.ExecuteAsync<Program>(args);
+
+        public string Version => typeof(Program).Assembly.GetName().Version.ToString();
 
         [Option("--list-stores",
             "List available pre-defined Certificate Store names",

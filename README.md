@@ -3,6 +3,12 @@ Extension to the .NET X509Store to access Win Service-specific certificate store
 
 ---
 
+[![Nuget Library](https://img.shields.io/nuget/v/Zyborg.Security.Cryptography.ServiceCertStore.svg)](https://www.nuget.org/packages/Zyborg.Security.Cryptography.ServiceCertStore/)
+
+[![PowerShell Module](https://img.shields.io/powershellgallery/v/ServiceCertStore.svg)](https://www.powershellgallery.com/packages/ServiceCertStore)
+
+---
+
 Use this extension to the BCL `X509Store` class to support access to
 Windows Service-specific certificate stores.
 

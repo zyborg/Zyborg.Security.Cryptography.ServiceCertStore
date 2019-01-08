@@ -10,7 +10,7 @@ Extension to the .NET X509Store to access Win Service-specific certificate store
 ---
 
 Use this extension to the BCL `X509Store` class to support access to
-Windows Service-specific certificate stores.
+Windows Service-specific certificate stores.  See [this blog](https://blog.bkkr.us/service-specific-certificate-store/) for the nitty gritty details.
 
 By default the `X509Store` class only allows access to the stores defined
 in the `StoreLocation` enumeration, which is limited to either the

@@ -1,6 +1,7 @@
 # Zyborg.Security.Cryptography.ServiceCertStore
 Extension to the .NET X509Store to access Win Service-specific certificate stores
 
+***:star: I appreciate your star, it helps me decide to which OSS projects I should allocate my spare time.***
 ---
 
 [![Nuget Library](https://img.shields.io/nuget/v/Zyborg.Security.Cryptography.ServiceCertStore.svg)](https://www.nuget.org/packages/Zyborg.Security.Cryptography.ServiceCertStore/)

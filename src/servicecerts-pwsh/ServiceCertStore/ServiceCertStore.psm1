@@ -46,7 +46,7 @@ function Get-ServiceCertificates {
     $store = Get-ServiceCertificateStore $ServiceName $StoreName
     try {
         foreach ($c in $store.Certificates) {
-            if ($Thumbprint -and -not ($c.$Thumbprint -in $Thumbprint)) {
+            if ($Thumbprint -and -not ($c.Thumbprint -in $Thumbprint)) {
                 continue
             }
             if ($Subject -and -not ($c.Subject -in $Subject)) {
